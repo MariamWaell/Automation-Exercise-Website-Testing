@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite1" class="navigator-link">
+              <span class="suite-name border-passed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
+                    <span>Tests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.ProductsTest" class="method navigator-link" hash-for-method="T20_SearchProductsLogin(Products.ProductsClass@7bede4ea)">T20_SearchProductsLogin(Products.ProductsClass@7bede4ea)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.ProductsTest" class="method navigator-link" hash-for-method="T21_AddReview">T21_AddReview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Home.HomeTest" class="method navigator-link" hash-for-method="TC10_HomeSubscription(Home.SubscribeClass@3c232051)">TC10_HomeSubscription(Home.SubscribeClass@3c232051)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Home.NavigationTest" class="method navigator-link" hash-for-method="TC11_CartSubscription(Home.SubscribeClass@6cc64028)">TC11_CartSubscription(Home.SubscribeClass@6cc64028)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.ProductsTest" class="method navigator-link" hash-for-method="TC12_AddProductsToCart">TC12_AddProductsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.HomeProductsTest" class="method navigator-link" hash-for-method="TC13_ProductQuantiy">TC13_ProductQuantiy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Checkout.CheckoutTest" class="method navigator-link" hash-for-method="TC14_RegisterAfterCheckout(Checkout.PaymentClass@45f70f68)">TC14_RegisterAfterCheckout(Checkout.PaymentClass@45f70f68)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Checkout.CheckoutTest" class="method navigator-link" hash-for-method="TC15_RegisterBeforeCheckout(Checkout.PaymentClass@45f70f68)">TC15_RegisterBeforeCheckout(Checkout.PaymentClass@45f70f68)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Checkout.CheckoutTest" class="method navigator-link" hash-for-method="TC16_LoginBeforeCheckout(Checkout.PaymentClass@45f70f68)">TC16_LoginBeforeCheckout(Checkout.PaymentClass@45f70f68)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.HomeProductsTest" class="method navigator-link" hash-for-method="TC17_RemoveProductsFromCart">TC17_RemoveProductsFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.HomeProductsTest" class="method navigator-link" hash-for-method="TC18_CategoryProducts">TC18_CategoryProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.ProductsTest" class="method navigator-link" hash-for-method="TC19_BrandProducts">TC19_BrandProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Register.RegisterTest" class="method navigator-link" hash-for-method="TC1_RegisterUser(Register.NewRegisterClass@50b1f030)">TC1_RegisterUser(Register.NewRegisterClass@50b1f030)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.HomeProductsTest" class="method navigator-link" hash-for-method="TC22_RecommendedItems">TC22_RecommendedItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Checkout.CheckoutTest" class="method navigator-link" hash-for-method="TC23_VerifyAddressDetails(Register.NewRegisterClass@667713c4)">TC23_VerifyAddressDetails(Register.NewRegisterClass@667713c4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Checkout.CheckoutTest" class="method navigator-link" hash-for-method="TC24_DownloadInvoice(Checkout.PaymentClass@45f70f68)">TC24_DownloadInvoice(Checkout.PaymentClass@45f70f68)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Home.HomeTest" class="method navigator-link" hash-for-method="TC25_ArrowScrollUp">TC25_ArrowScrollUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Home.HomeTest" class="method navigator-link" hash-for-method="TC26_ScrollUp">TC26_ScrollUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Login.LoginTest" class="method navigator-link" hash-for-method="TC2_CorrectLogin(Login.LoginClass@60859f5a)">TC2_CorrectLogin(Login.LoginClass@60859f5a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Login.LoginTest" class="method navigator-link" hash-for-method="TC3_InCorrectLogin(Login.LoginClass@1e977098)">TC3_InCorrectLogin(Login.LoginClass@1e977098)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Login.LoginTest" class="method navigator-link" hash-for-method="TC4_LogoutUser(Login.LoginClass@10b687f2)">TC4_LogoutUser(Login.LoginClass@10b687f2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Register.RegisterTest" class="method navigator-link" hash-for-method="TC5_ExistRegister(Register.ExistRegisterClass@47b179d7)">TC5_ExistRegister(Register.ExistRegisterClass@47b179d7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Home.NavigationTest" class="method navigator-link" hash-for-method="TC6_ContactUsForm(Home.ContactUsClass@595f9916)">TC6_ContactUsForm(Home.ContactUsClass@595f9916)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Home.NavigationTest" class="method navigator-link" hash-for-method="TC7_TestCasesPage">TC7_TestCasesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.ProductsTest" class="method navigator-link" hash-for-method="TC8_ProductDetails">TC8_ProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="Products.ProductsTest" class="method navigator-link" hash-for-method="TC9_SearchProducts(Products.ProductsClass@7bede4ea)">TC9_SearchProducts(Products.ProductsClass@7bede4ea)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Products.HomeProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13_ProductQuantiy">
+                  </a> <!-- TC13_ProductQuantiy -->
+                  <span class="method-name">TC13_ProductQuantiy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC17_RemoveProductsFromCart">
+                  </a> <!-- TC17_RemoveProductsFromCart -->
+                  <span class="method-name">TC17_RemoveProductsFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC18_CategoryProducts">
+                  </a> <!-- TC18_CategoryProducts -->
+                  <span class="method-name">TC18_CategoryProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC22_RecommendedItems">
+                  </a> <!-- TC22_RecommendedItems -->
+                  <span class="method-name">TC22_RecommendedItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Register.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1_RegisterUser(Register.NewRegisterClass@50b1f030)">
+                  </a> <!-- TC1_RegisterUser(Register.NewRegisterClass@50b1f030) -->
+                  <span class="method-name">TC1_RegisterUser</span>
+                  <span class="parameters">(Register.NewRegisterClass@50b1f030)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5_ExistRegister(Register.ExistRegisterClass@47b179d7)">
+                  </a> <!-- TC5_ExistRegister(Register.ExistRegisterClass@47b179d7) -->
+                  <span class="method-name">TC5_ExistRegister</span>
+                  <span class="parameters">(Register.ExistRegisterClass@47b179d7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2_CorrectLogin(Login.LoginClass@60859f5a)">
+                  </a> <!-- TC2_CorrectLogin(Login.LoginClass@60859f5a) -->
+                  <span class="method-name">TC2_CorrectLogin</span>
+                  <span class="parameters">(Login.LoginClass@60859f5a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3_InCorrectLogin(Login.LoginClass@1e977098)">
+                  </a> <!-- TC3_InCorrectLogin(Login.LoginClass@1e977098) -->
+                  <span class="method-name">TC3_InCorrectLogin</span>
+                  <span class="parameters">(Login.LoginClass@1e977098)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4_LogoutUser(Login.LoginClass@10b687f2)">
+                  </a> <!-- TC4_LogoutUser(Login.LoginClass@10b687f2) -->
+                  <span class="method-name">TC4_LogoutUser</span>
+                  <span class="parameters">(Login.LoginClass@10b687f2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Home.NavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11_CartSubscription(Home.SubscribeClass@6cc64028)">
+                  </a> <!-- TC11_CartSubscription(Home.SubscribeClass@6cc64028) -->
+                  <span class="method-name">TC11_CartSubscription</span>
+                  <span class="parameters">(Home.SubscribeClass@6cc64028)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC6_ContactUsForm(Home.ContactUsClass@595f9916)">
+                  </a> <!-- TC6_ContactUsForm(Home.ContactUsClass@595f9916) -->
+                  <span class="method-name">TC6_ContactUsForm</span>
+                  <span class="parameters">(Home.ContactUsClass@595f9916)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC7_TestCasesPage">
+                  </a> <!-- TC7_TestCasesPage -->
+                  <span class="method-name">TC7_TestCasesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Products.ProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T20_SearchProductsLogin(Products.ProductsClass@7bede4ea)">
+                  </a> <!-- T20_SearchProductsLogin(Products.ProductsClass@7bede4ea) -->
+                  <span class="method-name">T20_SearchProductsLogin</span>
+                  <span class="parameters">(Products.ProductsClass@7bede4ea)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T21_AddReview">
+                  </a> <!-- T21_AddReview -->
+                  <span class="method-name">T21_AddReview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12_AddProductsToCart">
+                  </a> <!-- TC12_AddProductsToCart -->
+                  <span class="method-name">TC12_AddProductsToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC19_BrandProducts">
+                  </a> <!-- TC19_BrandProducts -->
+                  <span class="method-name">TC19_BrandProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC8_ProductDetails">
+                  </a> <!-- TC8_ProductDetails -->
+                  <span class="method-name">TC8_ProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9_SearchProducts(Products.ProductsClass@7bede4ea)">
+                  </a> <!-- TC9_SearchProducts(Products.ProductsClass@7bede4ea) -->
+                  <span class="method-name">TC9_SearchProducts</span>
+                  <span class="parameters">(Products.ProductsClass@7bede4ea)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Checkout.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC14_RegisterAfterCheckout(Checkout.PaymentClass@45f70f68)">
+                  </a> <!-- TC14_RegisterAfterCheckout(Checkout.PaymentClass@45f70f68) -->
+                  <span class="method-name">TC14_RegisterAfterCheckout</span>
+                  <span class="parameters">(Checkout.PaymentClass@45f70f68)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC15_RegisterBeforeCheckout(Checkout.PaymentClass@45f70f68)">
+                  </a> <!-- TC15_RegisterBeforeCheckout(Checkout.PaymentClass@45f70f68) -->
+                  <span class="method-name">TC15_RegisterBeforeCheckout</span>
+                  <span class="parameters">(Checkout.PaymentClass@45f70f68)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC16_LoginBeforeCheckout(Checkout.PaymentClass@45f70f68)">
+                  </a> <!-- TC16_LoginBeforeCheckout(Checkout.PaymentClass@45f70f68) -->
+                  <span class="method-name">TC16_LoginBeforeCheckout</span>
+                  <span class="parameters">(Checkout.PaymentClass@45f70f68)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC23_VerifyAddressDetails(Register.NewRegisterClass@667713c4)">
+                  </a> <!-- TC23_VerifyAddressDetails(Register.NewRegisterClass@667713c4) -->
+                  <span class="method-name">TC23_VerifyAddressDetails</span>
+                  <span class="parameters">(Register.NewRegisterClass@667713c4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24_DownloadInvoice(Checkout.PaymentClass@45f70f68)">
+                  </a> <!-- TC24_DownloadInvoice(Checkout.PaymentClass@45f70f68) -->
+                  <span class="method-name">TC24_DownloadInvoice</span>
+                  <span class="parameters">(Checkout.PaymentClass@45f70f68)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Home.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10_HomeSubscription(Home.SubscribeClass@3c232051)">
+                  </a> <!-- TC10_HomeSubscription(Home.SubscribeClass@3c232051) -->
+                  <span class="method-name">TC10_HomeSubscription</span>
+                  <span class="parameters">(Home.SubscribeClass@3c232051)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC25_ArrowScrollUp">
+                  </a> <!-- TC25_ArrowScrollUp -->
+                  <span class="method-name">TC25_ArrowScrollUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC26_ScrollUp">
+                  </a> <!-- TC26_ScrollUp -->
+                  <span class="method-name">TC26_ScrollUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/mariammeccawi/NetBeansProjects/FinalProject/Tests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Pack1-Users&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Register.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;Login.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Pack1-Users --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Pack2-Home&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Home.HomeTest&quot;/&gt;
+      &lt;class name=&quot;Home.NavigationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Pack2-Home --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Pack3-Products&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Products.ProductsTest&quot;/&gt;
+      &lt;class name=&quot;Products.HomeProductsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Pack3-Products --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Pack4-Checkout&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Pack4-Checkout --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Pack1-Users (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Pack2-Home (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Pack3-Products (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Pack4-Checkout (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC24_DownloadInvoice')
+data.setCell(0, 2, 'Checkout.CheckoutTest')
+data.setCell(0, 3, 33207);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC16_LoginBeforeCheckout')
+data.setCell(1, 2, 'Checkout.CheckoutTest')
+data.setCell(1, 3, 31214);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC15_RegisterBeforeCheckout')
+data.setCell(2, 2, 'Checkout.CheckoutTest')
+data.setCell(2, 3, 31153);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC14_RegisterAfterCheckout')
+data.setCell(3, 2, 'Checkout.CheckoutTest')
+data.setCell(3, 3, 29484);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC2_CorrectLogin')
+data.setCell(4, 2, 'Login.LoginTest')
+data.setCell(4, 3, 28780);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'T20_SearchProductsLogin')
+data.setCell(5, 2, 'Products.ProductsTest')
+data.setCell(5, 3, 27878);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC22_RecommendedItems')
+data.setCell(6, 2, 'Products.HomeProductsTest')
+data.setCell(6, 3, 23811);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC23_VerifyAddressDetails')
+data.setCell(7, 2, 'Checkout.CheckoutTest')
+data.setCell(7, 3, 20724);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC1_RegisterUser')
+data.setCell(8, 2, 'Register.RegisterTest')
+data.setCell(8, 3, 17513);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC4_LogoutUser')
+data.setCell(9, 2, 'Login.LoginTest')
+data.setCell(9, 3, 14965);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC9_SearchProducts')
+data.setCell(10, 2, 'Products.ProductsTest')
+data.setCell(10, 3, 13432);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC12_AddProductsToCart')
+data.setCell(11, 2, 'Products.ProductsTest')
+data.setCell(11, 3, 11909);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC19_BrandProducts')
+data.setCell(12, 2, 'Products.ProductsTest')
+data.setCell(12, 3, 8906);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'T21_AddReview')
+data.setCell(13, 2, 'Products.ProductsTest')
+data.setCell(13, 3, 8530);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC8_ProductDetails')
+data.setCell(14, 2, 'Products.ProductsTest')
+data.setCell(14, 3, 7857);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC17_RemoveProductsFromCart')
+data.setCell(15, 2, 'Products.HomeProductsTest')
+data.setCell(15, 3, 7188);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC18_CategoryProducts')
+data.setCell(16, 2, 'Products.HomeProductsTest')
+data.setCell(16, 3, 6674);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC6_ContactUsForm')
+data.setCell(17, 2, 'Home.NavigationTest')
+data.setCell(17, 3, 6668);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC13_ProductQuantiy')
+data.setCell(18, 2, 'Products.HomeProductsTest')
+data.setCell(18, 3, 5485);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC11_CartSubscription')
+data.setCell(19, 2, 'Home.NavigationTest')
+data.setCell(19, 3, 2442);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC7_TestCasesPage')
+data.setCell(20, 2, 'Home.NavigationTest')
+data.setCell(20, 3, 1944);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC3_InCorrectLogin')
+data.setCell(21, 2, 'Login.LoginTest')
+data.setCell(21, 3, 1816);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC5_ExistRegister')
+data.setCell(22, 2, 'Register.RegisterTest')
+data.setCell(22, 3, 1493);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC26_ScrollUp')
+data.setCell(23, 2, 'Home.HomeTest')
+data.setCell(23, 3, 1231);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC25_ArrowScrollUp')
+data.setCell(24, 2, 'Home.HomeTest')
+data.setCell(24, 3, 1174);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC10_HomeSubscription')
+data.setCell(25, 2, 'Home.HomeTest')
+data.setCell(25, 3, 1062);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Register.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">DefineTest1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToSignPage</span>
+                <span class="method-start">10134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC1_RegisterUser(Register.NewRegisterClass@50b1f030)</span>
+                <span class="method-start">17030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHome</span>
+                <span class="method-start">34567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToSignPage</span>
+                <span class="method-start">35126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC5_ExistRegister(Register.ExistRegisterClass@47b179d7)</span>
+                <span class="method-start">40187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHome</span>
+                <span class="method-start">41683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">42118 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">42539 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToSignPage</span>
+                <span class="method-start">45365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC2_CorrectLogin(Login.LoginClass@60859f5a)</span>
+                <span class="method-start">53227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHome</span>
+                <span class="method-start">82009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToSignPage</span>
+                <span class="method-start">82344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC3_InCorrectLogin(Login.LoginClass@1e977098)</span>
+                <span class="method-start">87719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHome</span>
+                <span class="method-start">89536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToSignPage</span>
+                <span class="method-start">89766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC4_LogoutUser(Login.LoginClass@10b687f2)</span>
+                <span class="method-start">94798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHome</span>
+                <span class="method-start">109765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">109871 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Register.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Test1Done</span>
+                <span class="method-start">110402 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Home.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">DefineTest2</span>
+                <span class="method-start">110632 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">110635 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">CheckHomePage</span>
+                <span class="method-start">113506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC10_HomeSubscription(Home.SubscribeClass@3c232051)</span>
+                <span class="method-start">118902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">119966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CheckHomePage</span>
+                <span class="method-start">120087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC25_ArrowScrollUp</span>
+                <span class="method-start">123949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">125129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CheckHomePage</span>
+                <span class="method-start">125885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC26_ScrollUp</span>
+                <span class="method-start">130548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">131780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">131858 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Home.NavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">132223 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">CheckHomePage</span>
+                <span class="method-start">134811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC11_CartSubscription(Home.SubscribeClass@6cc64028)</span>
+                <span class="method-start">139895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">142339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CheckHomePage</span>
+                <span class="method-start">142467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC6_ContactUsForm(Home.ContactUsClass@595f9916)</span>
+                <span class="method-start">147436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">154106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CheckHomePage</span>
+                <span class="method-start">154444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC7_TestCasesPage</span>
+                <span class="method-start">157467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">159413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">159683 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Home.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Test2Done</span>
+                <span class="method-start">160018 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Products.ProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">DefineTest3</span>
+                <span class="method-start">160027 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">ReadData</span>
+                <span class="method-start">160029 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">160032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">T20_SearchProductsLogin(Products.ProductsClass@7bede4ea)</span>
+                <span class="method-start">168428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">196311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">196687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">T21_AddReview</span>
+                <span class="method-start">204250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">212781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">213105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC12_AddProductsToCart</span>
+                <span class="method-start">222308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">234218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">234472 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC19_BrandProducts</span>
+                <span class="method-start">243547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">252454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">252729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC8_ProductDetails</span>
+                <span class="method-start">260722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">268581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">268841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC9_SearchProducts(Products.ProductsClass@7bede4ea)</span>
+                <span class="method-start">276649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">290082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">Class1Done</span>
+                <span class="method-start">290390 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Products.HomeProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">DefineClass2</span>
+                <span class="method-start">290392 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">290393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC13_ProductQuantiy</span>
+                <span class="method-start">297996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">303483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">303729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC17_RemoveProductsFromCart</span>
+                <span class="method-start">312170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">319359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">319609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC18_CategoryProducts</span>
+                <span class="method-start">326963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">333640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">333908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC22_RecommendedItems</span>
+                <span class="method-start">341515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ReturnToHomePage</span>
+                <span class="method-start">365327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">Class2Done</span>
+                <span class="method-start">365580 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Products.ProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Test3Done</span>
+                <span class="method-start">365581 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Checkout.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">DefineTest4</span>
+                <span class="method-start">365763 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">365764 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToHome</span>
+                <span class="method-start">368316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC14_RegisterAfterCheckout(Checkout.PaymentClass@45f70f68)</span>
+                <span class="method-start">372099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">GoToNewHome</span>
+                <span class="method-start">401584 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToHome</span>
+                <span class="method-start">401970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC15_RegisterBeforeCheckout(Checkout.PaymentClass@45f70f68)</span>
+                <span class="method-start">405888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">GoToNewHome</span>
+                <span class="method-start">437042 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToHome</span>
+                <span class="method-start">437224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC16_LoginBeforeCheckout(Checkout.PaymentClass@45f70f68)</span>
+                <span class="method-start">440847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">GoToNewHome</span>
+                <span class="method-start">472064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToHome</span>
+                <span class="method-start">472458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC23_VerifyAddressDetails(Register.NewRegisterClass@667713c4)</span>
+                <span class="method-start">476873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">GoToNewHome</span>
+                <span class="method-start">497598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">GoToHome</span>
+                <span class="method-start">497827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC24_DownloadInvoice(Checkout.PaymentClass@45f70f68)</span>
+                <span class="method-start">500913 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">GoToNewHome</span>
+                <span class="method-start">534125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">Quit</span>
+                <span class="method-start">534627 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">Test4Done</span>
+                <span class="method-start">535352 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

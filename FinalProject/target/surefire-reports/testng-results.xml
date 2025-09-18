@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-15T17:33:43 EEST" name="Suite1" finished-at="2025-09-15T17:42:39 EEST" duration-ms="535369">
+    <groups>
+    </groups>
+    <test started-at="2025-09-15T17:33:43 EEST" name="Pack1-Users" finished-at="2025-09-15T17:35:34 EEST" duration-ms="110419">
+      <class name="Register.RegisterTest">
+        <test-method is-config="true" signature="DefineTest1()[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:33:43 EEST" name="DefineTest1" finished-at="2025-09-15T17:33:43 EEST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefineTest1 -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:33:43 EEST" name="Launch" finished-at="2025-09-15T17:33:53 EEST" duration-ms="10045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="GoToSignPage()[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:33:53 EEST" name="GoToSignPage" finished-at="2025-09-15T17:34:00 EEST" duration-ms="6579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToSignPage -->
+        <test-method signature="TC1_RegisterUser(Register.NewRegisterClass)[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:34:00 EEST" name="TC1_RegisterUser" data-provider="NewSignupData" finished-at="2025-09-15T17:34:18 EEST" duration-ms="17513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Register.NewRegisterClass@50b1f030]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_RegisterUser -->
+        <test-method is-config="true" signature="ReturnToHome()[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:34:18 EEST" name="ReturnToHome" finished-at="2025-09-15T17:34:18 EEST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHome -->
+        <test-method is-config="true" signature="GoToSignPage()[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:34:18 EEST" name="GoToSignPage" finished-at="2025-09-15T17:34:24 EEST" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToSignPage -->
+        <test-method signature="TC5_ExistRegister(Register.ExistRegisterClass)[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:34:24 EEST" name="TC5_ExistRegister" data-provider="ExistSignupData" finished-at="2025-09-15T17:34:25 EEST" duration-ms="1493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Register.ExistRegisterClass@47b179d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_ExistRegister -->
+        <test-method is-config="true" signature="ReturnToHome()[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:34:25 EEST" name="ReturnToHome" finished-at="2025-09-15T17:34:25 EEST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHome -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:34:25 EEST" name="Quit" finished-at="2025-09-15T17:34:26 EEST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Test1Done()[pri:0, instance:Register.RegisterTest@750e2b97]" started-at="2025-09-15T17:35:34 EEST" name="Test1Done" finished-at="2025-09-15T17:35:34 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1Done -->
+      </class> <!-- Register.RegisterTest -->
+      <class name="Login.LoginTest">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:34:26 EEST" name="Launch" finished-at="2025-09-15T17:34:29 EEST" duration-ms="2824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="GoToSignPage()[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:34:29 EEST" name="GoToSignPage" finished-at="2025-09-15T17:34:37 EEST" duration-ms="7861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToSignPage -->
+        <test-method signature="TC2_CorrectLogin(Login.LoginClass)[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:34:37 EEST" name="TC2_CorrectLogin" data-provider="CorrectLoginData" finished-at="2025-09-15T17:35:05 EEST" duration-ms="28780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login.LoginClass@60859f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_CorrectLogin -->
+        <test-method is-config="true" signature="ReturnToHome()[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:35:05 EEST" name="ReturnToHome" finished-at="2025-09-15T17:35:06 EEST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHome -->
+        <test-method is-config="true" signature="GoToSignPage()[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:35:06 EEST" name="GoToSignPage" finished-at="2025-09-15T17:35:11 EEST" duration-ms="5373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToSignPage -->
+        <test-method signature="TC3_InCorrectLogin(Login.LoginClass)[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:35:11 EEST" name="TC3_InCorrectLogin" data-provider="InCorrectLoginData" finished-at="2025-09-15T17:35:13 EEST" duration-ms="1816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login.LoginClass@1e977098]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_InCorrectLogin -->
+        <test-method is-config="true" signature="ReturnToHome()[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:35:13 EEST" name="ReturnToHome" finished-at="2025-09-15T17:35:13 EEST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHome -->
+        <test-method is-config="true" signature="GoToSignPage()[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:35:13 EEST" name="GoToSignPage" finished-at="2025-09-15T17:35:18 EEST" duration-ms="5031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToSignPage -->
+        <test-method signature="TC4_LogoutUser(Login.LoginClass)[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:35:18 EEST" name="TC4_LogoutUser" data-provider="LogoutData" finished-at="2025-09-15T17:35:33 EEST" duration-ms="14965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login.LoginClass@10b687f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_LogoutUser -->
+        <test-method is-config="true" signature="ReturnToHome()[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:35:33 EEST" name="ReturnToHome" finished-at="2025-09-15T17:35:33 EEST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHome -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Login.LoginTest@2a7f1f10]" started-at="2025-09-15T17:35:33 EEST" name="Quit" finished-at="2025-09-15T17:35:34 EEST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- Login.LoginTest -->
+    </test> <!-- Pack1-Users -->
+    <test started-at="2025-09-15T17:35:34 EEST" name="Pack2-Home" finished-at="2025-09-15T17:36:23 EEST" duration-ms="49387">
+      <class name="Home.HomeTest">
+        <test-method is-config="true" signature="DefineTest2()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:34 EEST" name="DefineTest2" finished-at="2025-09-15T17:35:34 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefineTest2 -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:34 EEST" name="Launch" finished-at="2025-09-15T17:35:37 EEST" duration-ms="2869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="CheckHomePage()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:37 EEST" name="CheckHomePage" finished-at="2025-09-15T17:35:42 EEST" duration-ms="5393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePage -->
+        <test-method signature="TC10_HomeSubscription(Home.SubscribeClass)[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:42 EEST" name="TC10_HomeSubscription" data-provider="SubscribeData" finished-at="2025-09-15T17:35:43 EEST" duration-ms="1062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home.SubscribeClass@3c232051]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_HomeSubscription -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:43 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:35:43 EEST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="CheckHomePage()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:43 EEST" name="CheckHomePage" finished-at="2025-09-15T17:35:47 EEST" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePage -->
+        <test-method signature="TC25_ArrowScrollUp()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:47 EEST" name="TC25_ArrowScrollUp" finished-at="2025-09-15T17:35:48 EEST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25_ArrowScrollUp -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:48 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:35:49 EEST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="CheckHomePage()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:49 EEST" name="CheckHomePage" finished-at="2025-09-15T17:35:54 EEST" duration-ms="4662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePage -->
+        <test-method signature="TC26_ScrollUp()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:54 EEST" name="TC26_ScrollUp" finished-at="2025-09-15T17:35:55 EEST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC26_ScrollUp -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:55 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:35:55 EEST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:35:55 EEST" name="Quit" finished-at="2025-09-15T17:35:56 EEST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Test2Done()[pri:0, instance:Home.HomeTest@72cc7e6f]" started-at="2025-09-15T17:36:23 EEST" name="Test2Done" finished-at="2025-09-15T17:36:23 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2Done -->
+      </class> <!-- Home.HomeTest -->
+      <class name="Home.NavigationTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:35:56 EEST" name="Setup" finished-at="2025-09-15T17:35:58 EEST" duration-ms="2587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="CheckHomePage()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:35:58 EEST" name="CheckHomePage" finished-at="2025-09-15T17:36:03 EEST" duration-ms="5084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePage -->
+        <test-method signature="TC11_CartSubscription(Home.SubscribeClass)[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:03 EEST" name="TC11_CartSubscription" data-provider="SubscribeData" finished-at="2025-09-15T17:36:06 EEST" duration-ms="2442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home.SubscribeClass@6cc64028]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_CartSubscription -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:06 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:36:06 EEST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="CheckHomePage()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:06 EEST" name="CheckHomePage" finished-at="2025-09-15T17:36:11 EEST" duration-ms="4968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePage -->
+        <test-method signature="TC6_ContactUsForm(Home.ContactUsClass)[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:11 EEST" name="TC6_ContactUsForm" data-provider="ContactUsData" finished-at="2025-09-15T17:36:17 EEST" duration-ms="6668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home.ContactUsClass@595f9916]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6_ContactUsForm -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:17 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:36:18 EEST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="CheckHomePage()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:18 EEST" name="CheckHomePage" finished-at="2025-09-15T17:36:21 EEST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePage -->
+        <test-method signature="TC7_TestCasesPage()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:21 EEST" name="TC7_TestCasesPage" finished-at="2025-09-15T17:36:23 EEST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7_TestCasesPage -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:23 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:36:23 EEST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Home.NavigationTest@5afa3c9]" started-at="2025-09-15T17:36:23 EEST" name="Quit" finished-at="2025-09-15T17:36:23 EEST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- Home.NavigationTest -->
+    </test> <!-- Pack2-Home -->
+    <test started-at="2025-09-15T17:36:23 EEST" name="Pack3-Products" finished-at="2025-09-15T17:39:49 EEST" duration-ms="205555">
+      <class name="Products.HomeProductsTest">
+        <test-method is-config="true" signature="DefineClass2()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:38:34 EEST" name="DefineClass2" finished-at="2025-09-15T17:38:34 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefineClass2 -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:38:34 EEST" name="Launch" finished-at="2025-09-15T17:38:41 EEST" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="TC13_ProductQuantiy()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:38:41 EEST" name="TC13_ProductQuantiy" finished-at="2025-09-15T17:38:47 EEST" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_ProductQuantiy -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:38:47 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:38:47 EEST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:38:47 EEST" name="Launch" finished-at="2025-09-15T17:38:55 EEST" duration-ms="8440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="TC17_RemoveProductsFromCart()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:38:55 EEST" name="TC17_RemoveProductsFromCart" finished-at="2025-09-15T17:39:03 EEST" duration-ms="7188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_RemoveProductsFromCart -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:39:03 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:39:03 EEST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:39:03 EEST" name="Launch" finished-at="2025-09-15T17:39:10 EEST" duration-ms="7354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="TC18_CategoryProducts()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:39:10 EEST" name="TC18_CategoryProducts" finished-at="2025-09-15T17:39:17 EEST" duration-ms="6674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_CategoryProducts -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:39:17 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:39:17 EEST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:39:17 EEST" name="Launch" finished-at="2025-09-15T17:39:25 EEST" duration-ms="7606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="TC22_RecommendedItems()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:39:25 EEST" name="TC22_RecommendedItems" finished-at="2025-09-15T17:39:49 EEST" duration-ms="23811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22_RecommendedItems -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:39:49 EEST" name="ReturnToHomePage" finished-at="2025-09-15T17:39:49 EEST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method is-config="true" signature="Class2Done()[pri:0, instance:Products.HomeProductsTest@6fa51cd4]" started-at="2025-09-15T17:39:49 EEST" name="Class2Done" finished-at="2025-09-15T17:39:49 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Class2Done -->
+      </class> <!-- Products.HomeProductsTest -->
+      <class name="Products.ProductsTest">
+        <test-method is-config="true" signature="DefineTest3()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:36:23 EEST" name="DefineTest3" finished-at="2025-09-15T17:36:23 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefineTest3 -->
+        <test-method is-config="true" signature="ReadData()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:36:23 EEST" name="ReadData" finished-at="2025-09-15T17:36:23 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadData -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:36:23 EEST" name="Launch" finished-at="2025-09-15T17:36:32 EEST" duration-ms="8395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="T20_SearchProductsLogin(Products.ProductsClass)[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:36:32 EEST" name="T20_SearchProductsLogin" data-provider="ProductsData" finished-at="2025-09-15T17:37:00 EEST" duration-ms="27878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Products.ProductsClass@7bede4ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T20_SearchProductsLogin -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:00 EEST" name="Quit" finished-at="2025-09-15T17:37:00 EEST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:00 EEST" name="Launch" finished-at="2025-09-15T17:37:08 EEST" duration-ms="7562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="T21_AddReview()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:08 EEST" name="T21_AddReview" finished-at="2025-09-15T17:37:16 EEST" duration-ms="8530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T21_AddReview -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:16 EEST" name="Quit" finished-at="2025-09-15T17:37:16 EEST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:16 EEST" name="Launch" finished-at="2025-09-15T17:37:26 EEST" duration-ms="9202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="TC12_AddProductsToCart()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:26 EEST" name="TC12_AddProductsToCart" finished-at="2025-09-15T17:37:38 EEST" duration-ms="11909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_AddProductsToCart -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:38 EEST" name="Quit" finished-at="2025-09-15T17:37:38 EEST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:38 EEST" name="Launch" finished-at="2025-09-15T17:37:47 EEST" duration-ms="9074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="TC19_BrandProducts()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:47 EEST" name="TC19_BrandProducts" finished-at="2025-09-15T17:37:56 EEST" duration-ms="8906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_BrandProducts -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:56 EEST" name="Quit" finished-at="2025-09-15T17:37:56 EEST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:37:56 EEST" name="Launch" finished-at="2025-09-15T17:38:04 EEST" duration-ms="7992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="TC8_ProductDetails()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:38:04 EEST" name="TC8_ProductDetails" finished-at="2025-09-15T17:38:12 EEST" duration-ms="7857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8_ProductDetails -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:38:12 EEST" name="Quit" finished-at="2025-09-15T17:38:12 EEST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:38:12 EEST" name="Launch" finished-at="2025-09-15T17:38:20 EEST" duration-ms="7807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="TC9_SearchProducts(Products.ProductsClass)[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:38:20 EEST" name="TC9_SearchProducts" data-provider="ProductsData" finished-at="2025-09-15T17:38:33 EEST" duration-ms="13432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Products.ProductsClass@7bede4ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9_SearchProducts -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:38:33 EEST" name="Quit" finished-at="2025-09-15T17:38:34 EEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Class1Done()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:38:34 EEST" name="Class1Done" finished-at="2025-09-15T17:38:34 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Class1Done -->
+        <test-method is-config="true" signature="Test3Done()[pri:0, instance:Products.ProductsTest@402c4085]" started-at="2025-09-15T17:39:49 EEST" name="Test3Done" finished-at="2025-09-15T17:39:49 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3Done -->
+      </class> <!-- Products.ProductsTest -->
+    </test> <!-- Pack3-Products -->
+    <test started-at="2025-09-15T17:39:49 EEST" name="Pack4-Checkout" finished-at="2025-09-15T17:42:39 EEST" duration-ms="169590">
+      <class name="Checkout.CheckoutTest">
+        <test-method is-config="true" signature="DefineTest4()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:39:49 EEST" name="DefineTest4" finished-at="2025-09-15T17:39:49 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefineTest4 -->
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:39:49 EEST" name="Launch" finished-at="2025-09-15T17:39:52 EEST" duration-ms="2551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="GoToHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:39:52 EEST" name="GoToHome" finished-at="2025-09-15T17:39:55 EEST" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHome -->
+        <test-method signature="TC14_RegisterAfterCheckout(Checkout.PaymentClass)[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:39:55 EEST" name="TC14_RegisterAfterCheckout" data-provider="PaymentData" finished-at="2025-09-15T17:40:25 EEST" duration-ms="29484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Checkout.PaymentClass@45f70f68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_RegisterAfterCheckout -->
+        <test-method is-config="true" signature="GoToNewHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:40:25 EEST" name="GoToNewHome" finished-at="2025-09-15T17:40:25 EEST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToNewHome -->
+        <test-method is-config="true" signature="GoToHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:40:25 EEST" name="GoToHome" finished-at="2025-09-15T17:40:29 EEST" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHome -->
+        <test-method signature="TC15_RegisterBeforeCheckout(Checkout.PaymentClass)[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:40:29 EEST" name="TC15_RegisterBeforeCheckout" data-provider="PaymentData" finished-at="2025-09-15T17:41:00 EEST" duration-ms="31153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Checkout.PaymentClass@45f70f68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_RegisterBeforeCheckout -->
+        <test-method is-config="true" signature="GoToNewHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:41:00 EEST" name="GoToNewHome" finished-at="2025-09-15T17:41:01 EEST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToNewHome -->
+        <test-method is-config="true" signature="GoToHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:41:01 EEST" name="GoToHome" finished-at="2025-09-15T17:41:04 EEST" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHome -->
+        <test-method signature="TC16_LoginBeforeCheckout(Checkout.PaymentClass)[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:41:04 EEST" name="TC16_LoginBeforeCheckout" data-provider="PaymentData" finished-at="2025-09-15T17:41:35 EEST" duration-ms="31214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Checkout.PaymentClass@45f70f68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_LoginBeforeCheckout -->
+        <test-method is-config="true" signature="GoToNewHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:41:35 EEST" name="GoToNewHome" finished-at="2025-09-15T17:41:36 EEST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToNewHome -->
+        <test-method is-config="true" signature="GoToHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:41:36 EEST" name="GoToHome" finished-at="2025-09-15T17:41:40 EEST" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHome -->
+        <test-method signature="TC23_VerifyAddressDetails(Register.NewRegisterClass)[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:41:40 EEST" name="TC23_VerifyAddressDetails" data-provider="NewSignupData" finished-at="2025-09-15T17:42:01 EEST" duration-ms="20724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Register.NewRegisterClass@667713c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23_VerifyAddressDetails -->
+        <test-method is-config="true" signature="GoToNewHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:42:01 EEST" name="GoToNewHome" finished-at="2025-09-15T17:42:01 EEST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToNewHome -->
+        <test-method is-config="true" signature="GoToHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:42:01 EEST" name="GoToHome" finished-at="2025-09-15T17:42:04 EEST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHome -->
+        <test-method signature="TC24_DownloadInvoice(Checkout.PaymentClass)[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:42:04 EEST" name="TC24_DownloadInvoice" data-provider="PaymentData" finished-at="2025-09-15T17:42:37 EEST" duration-ms="33207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Checkout.PaymentClass@45f70f68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24_DownloadInvoice -->
+        <test-method is-config="true" signature="GoToNewHome()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:42:37 EEST" name="GoToNewHome" finished-at="2025-09-15T17:42:38 EEST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToNewHome -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:42:38 EEST" name="Quit" finished-at="2025-09-15T17:42:39 EEST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method is-config="true" signature="Test4Done()[pri:0, instance:Checkout.CheckoutTest@5890e879]" started-at="2025-09-15T17:42:39 EEST" name="Test4Done" finished-at="2025-09-15T17:42:39 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4Done -->
+      </class> <!-- Checkout.CheckoutTest -->
+    </test> <!-- Pack4-Checkout -->
+  </suite> <!-- Suite1 -->
+</testng-results>

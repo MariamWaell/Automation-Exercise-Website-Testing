@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Pack3-Products(failed)" verbose="0">
+    <classes>
+      <class name="Products.HomeProductsTest">
+        <methods>
+          <include name="DefineClass2"/>
+          <include name="TC22_RecommendedItems"/>
+          <include name="Class2Done"/>
+          <include name="Launch"/>
+          <include name="ReturnToHomePage"/>
+        </methods>
+      </class> <!-- Products.HomeProductsTest -->
+    </classes>
+  </test> <!-- Pack3-Products(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

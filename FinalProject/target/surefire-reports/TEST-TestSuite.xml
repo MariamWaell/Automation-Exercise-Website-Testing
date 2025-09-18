@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="537.025" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mariammeccawi/NetBeansProjects/FinalProject/target/test-classes:/Users/mariammeccawi/NetBeansProjects/FinalProject/target/classes:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.35.0/selenium-java-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.35.0/selenium-api-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.35.0/selenium-chrome-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.35.0/selenium-chromium-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.35.0/selenium-json-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.35.0/selenium-manager-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.35.0/selenium-devtools-v137-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.35.0/selenium-devtools-v138-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v139/4.35.0/selenium-devtools-v139-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.35.0/selenium-edge-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.35.0/selenium-firefox-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.35.0/selenium-http-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.35.0/selenium-ie-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.35.0/selenium-remote-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/mariammeccawi/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/mariammeccawi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mariammeccawi/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-api/1.53.0/opentelemetry-api-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-context/1.53.0/opentelemetry-context-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-common/1.53.0/opentelemetry-common-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.53.0/opentelemetry-exporter-logging-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.53.0/opentelemetry-sdk-common-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.53.0/opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.53.0/opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.53.0/opentelemetry-sdk-trace-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.53.0/opentelemetry-sdk-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.53.0/opentelemetry-sdk-metrics-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.53.0/opentelemetry-sdk-logs-1.53.0.jar:/Users/mariammeccawi/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-os/4.35.0/selenium-os-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.35.0/selenium-safari-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.35.0/selenium-support-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/mariammeccawi/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/mariammeccawi/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/mariammeccawi/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/mariammeccawi/.m2/repository/com/google/code/gson/gson/2.13.1/gson-2.13.1.jar:/Users/mariammeccawi/.m2/repository/com/google/errorprone/error_prone_annotations/2.38.0/error_prone_annotations-2.38.0.jar:/Users/mariammeccawi/.m2/repository/io/qameta/allure/allure-testng/2.29.1/allure-testng-2.29.1.jar:/Users/mariammeccawi/.m2/repository/io/qameta/allure/allure-java-commons/2.29.1/allure-java-commons-2.29.1.jar:/Users/mariammeccawi/.m2/repository/io/qameta/allure/allure-model/2.29.1/allure-model-2.29.1.jar:/Users/mariammeccawi/.m2/repository/io/qameta/allure/allure-test-filter/2.29.1/allure-test-filter-2.29.1.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Applications/Apache NetBeans.app/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mariammeccawi/NetBeansProjects/FinalProject/target/surefire/surefirebooter-20250915173341593_3.jar /Users/mariammeccawi/NetBeansProjects/FinalProject/target/surefire 2025-09-15T17-33-41_371-jvmRun1 surefire-20250915173341593_1tmp surefire_0-20250915173341593_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mariammeccawi/NetBeansProjects/FinalProject/target/test-classes:/Users/mariammeccawi/NetBeansProjects/FinalProject/target/classes:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.35.0/selenium-java-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.35.0/selenium-api-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.35.0/selenium-chrome-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.35.0/selenium-chromium-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.35.0/selenium-json-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.35.0/selenium-manager-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.35.0/selenium-devtools-v137-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.35.0/selenium-devtools-v138-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v139/4.35.0/selenium-devtools-v139-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.35.0/selenium-edge-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.35.0/selenium-firefox-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.35.0/selenium-http-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.35.0/selenium-ie-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.35.0/selenium-remote-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/mariammeccawi/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/mariammeccawi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mariammeccawi/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-api/1.53.0/opentelemetry-api-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-context/1.53.0/opentelemetry-context-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-common/1.53.0/opentelemetry-common-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.53.0/opentelemetry-exporter-logging-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.53.0/opentelemetry-sdk-common-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.53.0/opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.53.0/opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.53.0/opentelemetry-sdk-trace-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.53.0/opentelemetry-sdk-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.53.0/opentelemetry-sdk-metrics-1.53.0.jar:/Users/mariammeccawi/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.53.0/opentelemetry-sdk-logs-1.53.0.jar:/Users/mariammeccawi/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-os/4.35.0/selenium-os-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.35.0/selenium-safari-driver-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.35.0/selenium-support-4.35.0.jar:/Users/mariammeccawi/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/mariammeccawi/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/mariammeccawi/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/mariammeccawi/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/mariammeccawi/.m2/repository/com/google/code/gson/gson/2.13.1/gson-2.13.1.jar:/Users/mariammeccawi/.m2/repository/com/google/errorprone/error_prone_annotations/2.38.0/error_prone_annotations-2.38.0.jar:/Users/mariammeccawi/.m2/repository/io/qameta/allure/allure-testng/2.29.1/allure-testng-2.29.1.jar:/Users/mariammeccawi/.m2/repository/io/qameta/allure/allure-java-commons/2.29.1/allure-java-commons-2.29.1.jar:/Users/mariammeccawi/.m2/repository/io/qameta/allure/allure-model/2.29.1/allure-model-2.29.1.jar:/Users/mariammeccawi/.m2/repository/io/qameta/allure/allure-test-filter/2.29.1/allure-test-filter-2.29.1.jar:"/>
+    <property name="allure.results.directory" value="/Users/mariammeccawi/NetBeansProjects/FinalProject/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mariammeccawi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/Applications/Apache NetBeans.app/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mariammeccawi/NetBeansProjects/FinalProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/mariammeccawi/NetBeansProjects/FinalProject/target/surefire/surefirebooter-20250915173341593_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.1+9"/>
+    <property name="user.name" value="mariammeccawi"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.7.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu24.30+11-CA"/>
+    <property name="maven.ext.class.path" value="/Applications/Apache NetBeans.app/Contents/Resources/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/Users/mariammeccawi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/m9/gm39mbsj6kj07c6j3crs7xx80000gp/T/"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="/Users/mariammeccawi/NetBeansProjects/FinalProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mariammeccawi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="24.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="TC1_RegisterUser[Register.NewRegisterClass@50b1f030](1)" classname="Register.RegisterTest" time="17.538">
+    <system-out><![CDATA[Test 1: This test is for testing different users through register and login actions.
+It includes test cases: 1, 2, 3, 4, 5
+Class 1: This class is for testing SignUp. Test cases 1,5
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sept 15, 2025 5:33:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC5_ExistRegister[Register.ExistRegisterClass@47b179d7](1)" classname="Register.RegisterTest" time="1.494"/>
+  <testcase name="TC2_CorrectLogin[Login.LoginClass@60859f5a](1)" classname="Login.LoginTest" time="28.781">
+    <system-out><![CDATA[Class 1 is Done
+Class 2: This class is for testing Login. Test Cases: 2,3,4
+]]></system-out>
+    <system-err><![CDATA[Sept 15, 2025 5:34:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC3_InCorrectLogin[Login.LoginClass@1e977098](1)" classname="Login.LoginTest" time="1.816"/>
+  <testcase name="TC4_LogoutUser[Login.LoginClass@10b687f2](1)" classname="Login.LoginTest" time="14.966"/>
+  <testcase name="TC10_HomeSubscription[Home.SubscribeClass@3c232051](1)" classname="Home.HomeTest" time="1.063">
+    <system-out><![CDATA[Class 2 is Done
+Test 1 is Done
+Test 2: This test is for testing different actions on home page and navigation buttons.
+It includes test cases: 6, 7, 10, 11, 25, 26.
+Class 1: This class is for testing small actions related to home page like subscribe and scroll. Test cases 10,25,26
+]]></system-out>
+    <system-err><![CDATA[Sept 15, 2025 5:35:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC25_ArrowScrollUp" classname="Home.HomeTest" time="1.177"/>
+  <testcase name="TC26_ScrollUp" classname="Home.HomeTest" time="1.231"/>
+  <testcase name="TC11_CartSubscription[Home.SubscribeClass@6cc64028](1)" classname="Home.NavigationTest" time="2.444">
+    <system-out><![CDATA[Class 1 is Done
+Class 2: This class is for testing actions related to other pages on the navigation bar. Test cases 6,7,11
+]]></system-out>
+    <system-err><![CDATA[Sept 15, 2025 5:35:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC6_ContactUsForm[Home.ContactUsClass@595f9916](1)" classname="Home.NavigationTest" time="6.669"/>
+  <testcase name="TC7_TestCasesPage" classname="Home.NavigationTest" time="1.946"/>
+  <testcase name="T20_SearchProductsLogin[Products.ProductsClass@7bede4ea](1)" classname="Products.ProductsTest" time="27.886">
+    <system-out><![CDATA[Class 2 is Done.
+Test 2 is Done
+Test 3: This test is for testing different products-related actions on both home and products pages.
+It includes test cases: 8, 9, 12, 13, 17, 18, 19, 20, 21, 22.
+Class 1: This class is for testing actions related to products on the all products page. Test cases 8,9,12,19,20,21
+]]></system-out>
+    <system-err><![CDATA[Sept 15, 2025 5:36:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="T21_AddReview" classname="Products.ProductsTest" time="8.53">
+    <system-err><![CDATA[Sept 15, 2025 5:37:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC12_AddProductsToCart" classname="Products.ProductsTest" time="11.91">
+    <system-err><![CDATA[Sept 15, 2025 5:37:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC19_BrandProducts" classname="Products.ProductsTest" time="8.907">
+    <system-err><![CDATA[Sept 15, 2025 5:37:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC8_ProductDetails" classname="Products.ProductsTest" time="7.859">
+    <system-err><![CDATA[Sept 15, 2025 5:37:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC9_SearchProducts[Products.ProductsClass@7bede4ea](1)" classname="Products.ProductsTest" time="13.433">
+    <system-err><![CDATA[Sept 15, 2025 5:38:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC13_ProductQuantiy" classname="Products.HomeProductsTest" time="5.486">
+    <system-out><![CDATA[Class 1 is Done
+Class 2: This class is for testing actions related to products on the home page. Test cases 13,17,18,22
+]]></system-out>
+    <system-err><![CDATA[Sept 15, 2025 5:38:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC17_RemoveProductsFromCart" classname="Products.HomeProductsTest" time="7.189">
+    <system-err><![CDATA[Sept 15, 2025 5:38:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC18_CategoryProducts" classname="Products.HomeProductsTest" time="6.677">
+    <system-err><![CDATA[Sept 15, 2025 5:39:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC22_RecommendedItems" classname="Products.HomeProductsTest" time="23.812">
+    <system-err><![CDATA[Sept 15, 2025 5:39:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC14_RegisterAfterCheckout[Checkout.PaymentClass@45f70f68](1)" classname="Checkout.CheckoutTest" time="29.486">
+    <system-out><![CDATA[Class 2 is Done
+Test 3 is Done
+Test 4: This test is for testing different checkout actions.
+It includes test cases: 14, 15, 16, 23, 24.
+]]></system-out>
+    <system-err><![CDATA[Sept 15, 2025 5:39:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC15_RegisterBeforeCheckout[Checkout.PaymentClass@45f70f68](1)" classname="Checkout.CheckoutTest" time="31.154"/>
+  <testcase name="TC16_LoginBeforeCheckout[Checkout.PaymentClass@45f70f68](1)" classname="Checkout.CheckoutTest" time="31.217"/>
+  <testcase name="TC23_VerifyAddressDetails[Register.NewRegisterClass@667713c4](1)" classname="Checkout.CheckoutTest" time="20.725"/>
+  <testcase name="TC24_DownloadInvoice[Checkout.PaymentClass@45f70f68](1)" classname="Checkout.CheckoutTest" time="33.213"/>
+</testsuite>
