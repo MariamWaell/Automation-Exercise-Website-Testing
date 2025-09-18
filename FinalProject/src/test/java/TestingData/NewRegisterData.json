@@ -1,0 +1,21 @@
+[
+    {
+        "SignUpName":"Sarah",
+        "SignUpEmail":"ss@s.com",
+        "Title":"Mrs",
+        "Password":"ss",
+        "BirthDay":"14",
+        "BirthMonth":"7",
+        "BirthYear":"2014",
+        "FirstName":"Sarah",
+        "LastName":"Mohamed",
+        "Company":"Edges",
+        "Address":"123 Main Street",
+        "Address2":"Apt 3",
+        "Country":"Canada",
+        "State":"Ontario",
+        "City":"Toronto",
+        "ZipCode":"z123",
+        "MobileNumber":"98765"
+    }
+]
